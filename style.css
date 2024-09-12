@@ -1,0 +1,107 @@
+/*
+File: style.css
+Project: Fit Quest Website Styling
+Created by: Mena Hanna
+Email: mena_hanna@student.uml.edu
+Date: 9/9/2024
+Description: This CSS file provides the styling for the Fit Quest website, including colors, fonts, and responsive design. 
+The page is designed with a dark theme, light text, and purple highlights to create a modern look.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text color for better readability on dark background */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #c299ff; /* Light purple */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #f0e6ff; /* Light white/purple */
+}
+
+p {
+    font-size: 1em;
+    color: #e6e6e6; /* Light grey for better readability */
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #a64dff; /* Purple link color */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d9b3ff; /* Lighter purple on hover */
+}
+
+/* Blockquote styling for quotes */
+blockquote {
+    font-style: italic;
+    color: #ffcc80; /* Light orange for contrast */
+    margin: 20px auto;
+    width: 80%; /* Adjust as needed */
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Table Styling */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td {
+    border: 1px solid #4d4d4d; /* Dark grey border */
+    padding: 20px;
+    text-align: center;
+    background-color: #333333; /* Dark grey background for table cells */
+    color: #f0f0f0; /* Light text inside the table */
+}
+
+/* Video play button */
+.video-play-button {
+    font-size: 24px;
+    color: #ff6666; /* Light red for video play buttons */
+}
+
+/* Back link styling */
+.back-link {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #c299ff; /* Light purple */
+}
+
+.back-link:hover {
+    color: #d9b3ff; /* Lighter purple on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
